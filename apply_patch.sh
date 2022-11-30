@@ -19,7 +19,7 @@ if [ -f "$FILE" ]; then
   echo -e "\n**********************************\nFixing Patch Done.\n**********************************\n"
 
   echo -e "\n**********************************\nAdd Toolchains...\n**********************************\n"
-  wget https://github.com/YuzukiHD/TinaAddons/releases/download/1.0/arm-toolchains.tar.gz
+  #wget https://github.com/YuzukiHD/TinaAddons/releases/download/1.0/arm-toolchains.tar.gz
   tar xf arm-toolchains.tar.gz
 
   echo -e "\n**********************************\nDone, Start Your Tina Linux\n**********************************\n"
